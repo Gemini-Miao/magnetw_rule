@@ -61,17 +61,13 @@
     "url": "https://btsow.rest",
     "paths": {
       "preset": "/search/{k}/page/{p}",
-      "hot": "//btsow.rest/magnet/detail/hash/F{p}BCB79BFBD6CB2EB6C5DF9ADB7E299896D900AB"
     },
     "xpath": {
-      "group": "//div[@class='row']",
-      "magnet": "./a[1]/@href",
-      "name": "./a[1]",
-      "size": "./div[1]",
-      "date": "./div[2]",
-      "detail": {
-        "files": "//div[@class=\"detail data-list\"]/div/text()"
-      }
+      "group": "//div[@class='data-list']",
+      "magnet": "./div[3]/a[1]/@href",
+      "name": "./div[3]/a[1]",
+      "size": "./div[31]/div[1]",
+      "date": "./div[31]/div[2]"
     }
   },
   {
