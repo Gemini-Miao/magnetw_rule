@@ -60,7 +60,7 @@
     "proxy": true,
     "url": "https://btsow.rest",
     "paths": {
-      "preset": "/search/{k}/page/{p}",
+      "preset": "/search/{k}/page/{p}"
     },
     "xpath": {
       "group": "//div[@class='data-list']",
